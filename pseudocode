@@ -1,0 +1,21 @@
+importer module randint pour choix aléatoire de l'ordinateur 
+
+
+definir le nb d'essai max
+initialiser le premier essai du joueur
+faire choisir un chiffre aléatoire à l'ordinateur entre 1 et 9
+choisir un nombre
+
+tant que le nombre choisi par le joueur n'est pas égal à celui de l'ordi et que le nombre d'essai du joueur et plus petit que le nombre d'essai max
+    demander de choisir un chiffre entre 0 et 9
+    afficher à quel essai en est l'utilisateur
+    si le nombre de l'user est plus grand et que celui de l'ordinateur
+        afficher "c'est moins "
+    si le nombre de l'user est plus petit 
+        afficher "c'est plus"
+    sinon
+        afficher "c'est gagné " avec le nombre d'essai utiliser 
+    ajouter 1 au nombre d'essai du joueur
+
+si le joueur a atteint son nombre d'essai max et qu'il n'a pas trouvé le chiffre de l'ordi
+    afficher "c'est fini" avec ler nombre d'essai qu'il a utilisé
